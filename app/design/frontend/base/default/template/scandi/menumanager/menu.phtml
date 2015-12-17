@@ -1,0 +1,21 @@
+<?php
+/**
+ * Scandi_MenuManager
+ *
+ * @category Scandi
+ * @package Scandi_MenuManager
+ * @author Scandiweb <info@scandiweb.com>
+ * @copyright Copyright (c) 2013 Scandiweb, Ltd (http://scandiweb.com)
+ * @license http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+
+/**
+ * @var $this Scandi_MenuManager_Block_Menu
+ * $this->getMenu() to get menu model, data
+ */
+?>
+
+<?php if ($menu = $this->getMenuHtml()): ?>
+    <?php echo $menu; ?>
+<?php endif; ?>
+

@@ -1,0 +1,6 @@
+app/code/local/Scandi/MenuManager/					app/code/local/Scandi/MenuManager/
+app/design/adminhtml/default/default/layout/scandi_menumanager.xml 	app/design/adminhtml/default/default/layout/scandi_menumanager.xml
+app/design/frontend/base/default/layout/scandi_menumanager.xml 		app/design/frontend/base/default/layout/scandi_menumanager.xml
+app/design/frontend/base/default/template/scandi/menumanager/ 		app/design/frontend/base/default/template/scandi/menumanager/
+app/etc/modules/Scandi_MenuManager.xml 					app/etc/modules/Scandi_MenuManager.xml
+skin/frontend/base/default/scandi/menumanager/ 				skin/frontend/base/default/scandi/menumanager/

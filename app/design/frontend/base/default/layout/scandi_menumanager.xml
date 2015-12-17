@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Scandi_MenuManager
+ *
+ * @category Scandi
+ * @package Scandi_MenuManager
+ * @author Scandiweb <info@scandiweb.com>
+ * @copyright Copyright (c) 2013 Scandiweb, Ltd (http://scandiweb.com)
+ * @license http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+-->
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>scandi/menumanager/css/menumanager.css</name></action>
+        </reference>
+    </default>
+</layout>

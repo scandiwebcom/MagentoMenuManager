@@ -1,0 +1,18 @@
+{
+    "name": "scandiwebcom/MagentoMenuManager",
+    "type": "magento-module",
+    "description": "Extension allows to create as many menus as you wish. Each menu will have it's suport for active items.",
+    "homepage": "https://github.com/scandiwebcom/MagentoMenuManager/wiki",
+     "license": "AFL-3.0",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":           [
+        {
+            "name":  "Scandiweb.com",
+            "email": "info@scandiweb.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
+

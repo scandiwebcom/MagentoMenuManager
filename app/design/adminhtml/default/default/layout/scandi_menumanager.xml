@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Scandi_MenuManager
+ *
+ * @category Scandi
+ * @package Scandi_MenuManager
+ * @author Scandiweb <info@scandiweb.com>
+ * @copyright Copyright (c) 2013 Scandiweb, Ltd (http://scandiweb.com)
+ * @license http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+-->
+<layout>
+    <adminhtml_menumanager_index_index>
+        <reference name="content">
+            <block type="scandi_menumanager/adminhtml_menu" name="menumanager_menu_grid" />
+        </reference>
+    </adminhtml_menumanager_index_index>
+
+    <adminhtml_menumanager_index_edit>
+        <reference name="content">
+            <block type="scandi_menumanager/adminhtml_menu_edit" name="menumanager_menu_edit" />
+        </reference>
+
+        <reference name="left">
+            <block type="scandi_menumanager/adminhtml_menu_edit_tabs" name="menumanager_menu_edit_tabs">
+                <block type="scandi_menumanager/adminhtml_menu_edit_tab_main" name="menumanager_menu_edit_tab_main" />
+                <action method="addTab"><name>main_section</name><block>menumanager_menu_edit_tab_main</block></action>
+            </block>
+        </reference>
+    </adminhtml_menumanager_index_edit>
+
+    <adminhtml_menumanager_index_edit_item>
+        <reference name="content">
+            <block type="scandi_menumanager/adminhtml_menu_item_edit" name="menumanager_menu_item_edit" />
+        </reference>
+    </adminhtml_menumanager_index_edit_item>
+</layout>

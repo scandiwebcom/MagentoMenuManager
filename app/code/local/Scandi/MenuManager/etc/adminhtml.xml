@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Scandi_MenuManager
+ *
+ * @category Scandi
+ * @package Scandi_MenuManager
+ * @author Scandiweb <info@scandiweb.com>
+ * @copyright Copyright (c) 2013 Scandiweb, Ltd (http://scandiweb.com)
+ * @license http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <menu>
+        <cms>
+            <children>
+                <scandi_menumanager translate="title" module="scandi_menumanager">
+                    <title>Menus</title>
+                    <action>adminhtml/menumanager_index/index</action>
+                    <sort_order>25</sort_order>
+                </scandi_menumanager>
+            </children>
+        </cms>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <cms>
+                        <children>
+                            <scandi_menumanager translate="title" module="scandi_menumanager">
+                                <title>Menus</title>
+                                <sort_order>25</sort_order>
+                            </scandi_menumanager>
+                        </children>
+                    </cms>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
+

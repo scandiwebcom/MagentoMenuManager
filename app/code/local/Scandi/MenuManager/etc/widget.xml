@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Scandi_MenuManager
+ *
+ * @category Scandi
+ * @package Scandi_MenuManager
+ * @author Scandiweb <info@scandiweb.com>
+ * @copyright Copyright (c) 2013 Scandiweb, Ltd (http://scandiweb.com)
+ * @license http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+-->
+<widgets>
+    <menumanager_widget type="scandi_menumanager/widget" translate="name description" module="scandi_menumanager">
+        <name>Menu Manager</name>
+        <description>Add Menu Manager menu to a block or a page</description>
+        <parameters>
+            <widget_menu translate="label">
+                <label>Menu</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>select</type>
+                <source_model>scandi_menumanager/menu</source_model>
+            </widget_menu>
+        </parameters>
+    </menumanager_widget>
+</widgets>
