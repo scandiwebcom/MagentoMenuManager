@@ -18,6 +18,14 @@
 class Scandi_MenuManager_Adminhtml_Menumanager_IndexController extends Mage_Adminhtml_Controller_Action
 {
     /**
+     * ACL check
+     */
+    protected function _isAllowed()
+    {
+        return Mage::getSingleton('admin/session')->isAllowed('cms/scandi_menumanager');
+    }
+
+    /**
      * Init actions
      *
      * @return Scandi_MenuManager_Adminhtml_IndexController
