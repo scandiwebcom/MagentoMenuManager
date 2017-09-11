@@ -344,7 +344,7 @@ class Scandi_MenuManager_Block_Menu extends Mage_Core_Block_Template
      */
     public function getCacheLifetime()
     {
-        return null;
+        return false;
     }
 
     /**
